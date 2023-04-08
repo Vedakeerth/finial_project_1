@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAELINSA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">    
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="website icon" type="png" href="Icons/logo-img.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<div id="preloader"></div>
+
+<div class="scrollable-container">
+
+<!-----------------Go back to top botton-------------------->
+  <div id="progress">
+    <span id="progress-value">&#x1F815;</span>
+  </div>
+
+<!------------------------------->
+
+<section class="header">
+<!---
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="video/3d Printer Stock Footage - Background_1.mp4" type="video/mp4">
+    </video>
+    -->
+    <nav>
+        <a href="index.html">
+            <img class="logo" src="Icons/logo.png">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="service.html">Servies</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box" >
+      <!---  <h1>Mindblowing In 3D Printing</h1>  --->
+      <!--<h1 class="head"></h1>
+       <h1>Scan. Reverse. Model.</h1> -->
+       <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+      <h1> We're expert in <span class="auto-type"></span></h1>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["3D Scanning","3D Printing","3D Scanners","3D Pens","Product Design ","Prototype","Fabricarion"],
+        typespeed: 30,
+        backspeed: 5,
+        loop: true
+      })
+    </script>
+    </div>
+        <p>Cutting edge technology to bring Ideas to reality</p>
+        <a href="https://script.google.com/macros/s/AKfycbxmqIMafd1TqA9fxk6sKmQRi39asgm67T511xwEDWxm9hqShM3sFZPBvKEy-QeZGnGl/exec" class="hero-btn">Get a Instant Quote</a>
+    </div>
+
+</section>
+
+<!------------------------About Us-------------------------------->
+<div class="about">
+  <div class="about-title" data-aos="fade-right">
+    <div class="about-img" data-aos="fade-left">
+    <img src="Image/about.jpg" alt="">
+    </div>
+    <h1>About Us</h1>
+    <div class="border-about"></div>
+    <p>&emsp;&emsp;Vaelinsa was founded in 2023 with a mission to revolutionize the 3D printing industry. 
+      We are a leading manufacturer of 3D printing machines and offer top-quality services to our clients. 
+      Our goal is to provide innovative, reliable, and affordable 3D printing technology to individuals and businesses of all sizes</p>
+      <a href="about.html" class="about-btn">Read More...</a>
+  </div>
+</div>
+
+<!--------------Slide Bar--------------->
+<div class="slideshow-container" data-aos="slide-up">
+    <div class="mySlides fade">
+      <div class="numbertext">Our 3D Printing Meachine</div>
+      <img src="Image/Slide Bar/meachine_1.png" style="width:100%">
+      <div class="text">Coming Soon.......</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">Our 3D Scanner</div>
+      <img src="Image/Slide Bar/Scanner.png" style="width:100%">
+      <div class="text">Coming Soon.......</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">Our Products</div>
+      <img src="Image/Slide Bar/coustomize.jpg" style="width:100%">
+      <div class="text">Our Products can be coustomizable. </div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">Print Your 3D part</div>
+        <img src="Image/Slide Bar/3D_part.jpg" style="width:100%">
+        <div class="text">Make your Own desigen , Prototype we are help's you</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div class="slide-dot" style="text-align:center">
+    <span class="dot" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+<!--------Features------------>
+<section class="serives">
+    <h1>Our Features</h1>
+    <p>Features are we providing to customer</p>
+
+    <div class="row">
+        <div class="serives-col" data-aos="fade-left">
+            <img src="Image/Feature/QA.png">
+            <div class="layer">
+                <h3>Quality Assurance</h3>
+            </div>
+        </div>
+        <div class="serives-col" data-aos="fade-up">
+            <img src="Image/Feature/F_S.png">
+            <div class="layer">
+                <h3>Confidential Agreement </h3>
+            </div>
+        </div>
+        <div class="serives-col" data-aos="fade-right">
+            <img src="Image/Feature/track.png">
+            <div class="layer">
+                <h3>Real time order Tracking </h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-------------Process------------------>
+
+<div class="process">
+  <div class="title">
+    <h1>Our Applications</h1>
+    <div class="details">
+      <div class="por" data-aos="flip-left">
+          <div class="process-details">
+            <img src="Image/Application/3D.png" alt="img-1">
+            </div>
+            
+            <div class="pro-name">3D printing Service</div>
+            <div class="border-pro"></div>
+            <div class="por_2">
+            <p>Vaelinsa is a 3D print company that offers a range of products and services using cutting-edge 3D printing technology. 
+              3D printing services allow Vaelinsa to create custom models quickly and efficiently, with a high degree of precision and accuracy. 
+              With a focus on quality, reliability, and customer satisfaction, Vaelinsa's 3D printing service is the ideal choice for anyone looking to bring their ideas to life.</p></div>
+            </div>
+          <div class="por" data-aos="flip-right">
+            <div class="process-details">
+              <img src="Image/Application/RE.webp" alt="img-1">
+            </div>
+            
+              <div class="pro-name">Product Design & Development</div>
+            <div class="border-pro"></div>
+              <div class="por_2">
+              <p>Once you have a finalized design, it's time to manufacture the product. 
+                Use the 3D printing technology to produce the final product, ensuring that it meets the required specifications.</p></div>
+              </div>
+          </div>
+        </div>
+        <div class="details-1">
+          <div class="por" data-aos="flip-left">
+              <div class="process-details">
+                <img src="Image/Application/fp.webp" alt="img-1">
+              </div>
+              
+                <div class="pro-name">Functional Prototype</div>
+              <div class="border-pro"></div>
+                <div class="por_2">
+                <p>A functional prototype is a crucial step in the product development process, and Vaelinsa is a 3D print company that specializes in creating functional prototypes using 3D printing technology. 
+                  Vaelinsa's team of experienced professionals work closely with clients to ensure that their functional prototypes meet their specifications and are ready for testing and evaluation. 
+                  With a commitment to quality and customer satisfaction, Vaelinsa's functional prototype service is the perfect solution for anyone looking to take their product development to the next level.</p></div>
+                </div>
+              
+          
+          <div class="por" data-aos="flip-right">
+                <div class="process-details">
+                  <img src="Image/Application/3D-scanner.webp" alt="img-1">
+                </div>
+                
+                  <div class="pro-name">3D Scanner</div>
+                <div class="border-pro"></div>
+                  <div class="por_2">
+                  <p>Vaelinsa is a 3D print company that utilizes 3D scanning technology to create high-quality, accurate models.  
+                    With a focus on quality, reliability, and customer satisfaction, Vaelinsa's 3D scanning service is the ideal choice for anyone looking to bring their ideas to life with 3D printing.</p></div>
+                </div></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!---------Reviwe------>
+<div class="testimonials">
+  <div class="inner">
+    <h1>Testimonials</h1>
+    <div class="border"></div>
+
+    <div class="row" data-aos="fade-right">
+      <div class="col">
+        <div class="testimonial">
+          <img src="Image/Review/p1.jpg" alt="">
+          <div class="name">Emma</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+          <p>
+            Vaelinsa has been a fantastic company to work with for my 3D printing needs. 
+            Their machines are top-notch and have exceeded my expectations in terms of print quality and speed. 
+            Additionally, their 3D scanners have been invaluable in creating accurate and detailed 3D models. 
+            I highly recommend Vaelinsa to anyone in need of reliable and high-quality 3D printing equipment.          
+          </p>
+        </div>
+      </div>
+
+      <div class="col" data-aos="slide-up">
+        <div class="testimonial">
+          <img src="Image/Review/p2.jpg" alt="">
+          <div class="name">Liam</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+
+          <p>
+            I have been using Vaelinsa's 3D printers and scanners for my small business, and I couldn't be happier with the results. 
+            Their machines are user-friendly and produce high-quality prints with excellent accuracy. 
+            Their scanners have been instrumental in creating 3D models of my products, making it easier to design and improve my products. 
+            Overall, Vaelinsa has been a reliable and efficient partner for my 3D printing needs.
+          </p>
+        </div>
+      </div>
+
+      <div class="col" data-aos="fade-left">
+        <div class="testimonial">
+          <img src="Image/Review/p3.jpg" alt="">
+          <div class="name">Sophia</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+
+          <p>
+            I recently purchased a 3D printer from Vaelinsa, and I have been thoroughly impressed with its capabilities. 
+            The printer is easy to use, and the print quality is excellent. 
+            Vaelinsa's customer service has also been top-notch, answering all of my questions and providing helpful tips for using the machine. 
+            I highly recommend Vaelinsa for anyone in the market for a quality 3D printer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!----------------Industry Revolution 4.0---------------->
+<div class="industry"  data-aos="fade-up">
+  <div class="revolution">
+    <h4>Industry Revolution 4.0</h4>
+    
+    <p>3-D printing is one interesting and fast-growing technology, which alone has the ability to forever transform <br>
+      the way products are manufactured. It has applications in almost every industrial segment, from electronics to medical devices, clothing and automotive manufacturing.</p>
+      <img src="Image/ir.png" alt="">
+  </div>
+</div>
+
+<!------------------footer---------------->
+
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <span class="logo-details"><img src="Icons/logo.png" ></span>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/login?lang=en"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <p class="hover-footer">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="login.html">Get started</a></li>
+              </p>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Products</li>
+              <p class="hover-footer">
+              <li><a href="#">3D Printing Machine</a></li>
+              <li><a href="#">Gift & Toys </a></li>
+              <li><a href="#">Prototype </a></li>
+              <li><a href="#">Customize product 
+                your need</a></li>
+              </p>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Service</li>
+              <p class="hover-footer">
+              <li><a href="#">Service our products</a></li>
+              <li><a href="#">Design your prototype</a></li>
+              <li><a href="#">Tracking Your Product</a></li>
+            </p>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Policy</li>
+              <p class="hover-footer">
+              <li><a href="#">Privacy Policy</li>
+              <li><a href="#">Teams & Condition</a></li>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Returns</a></li>
+            </p>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Join us </li>
+              <li><input type="email" placeholder="Enter your email"></li>
+              <li><input type="button" value="Join"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">Vaelinsa.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+<!--------JavaScript for Toggle menu ----------->
+
+<script src="script.js"></script>
+
+<!----------------------
+<script>
+
+let calcScrollValue = () => {
+  let scrollProgress = document.getElementById("progress");
+  let progressValue = document.getElementById("progress-value");
+  let pos = document.documentElement.scrollTop;
+  let calcHeight =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  let scrollValue = Math.round((pos * 100) / calcHeight);
+  if (pos > 100) {
+    scrollProgress.style.display = "grid";
+  } else {
+    scrollProgress.style.display = "none";
+  }
+  scrollProgress.addEventListener("click", () => {
+    document.documentElement.scrollTop = 0;
+  });
+  scrollProgress.style.background = `conic-gradient(#0077be ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+};
+
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue;
+ 
+</script>
+---->
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="https://kit.fontawesome.com/9b0601e451.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    let slideIndex = 0;
+    let timeoutId = null;
+    const slides = document.getElementsByClassName("mySlides");
+    const dots = document.getElementsByClassName("dot");
+    
+    showSlides();
+    function currentSlide(index) {
+         slideIndex = index;
+         showSlides();
+    }
+   function plusSlides(step) {
+      
+      if(step < 0) {
+          slideIndex -= 2;
+          
+          if(slideIndex < 0) {
+            slideIndex = slides.length - 1;
+          }
+      }
+      
+      showSlides();
+   }
+    function showSlides() {
+      for(let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        dots[i].classList.remove('active');
+      }
+      slideIndex++;
+      if(slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].classList.add('active');
+       if(timeoutId) {
+          clearTimeout(timeoutId);
+       }
+      timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+  </script>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+  </script>
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+</div>
+
+<script>
+  var loader = document.getElementById("preloader");
+
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+  })
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
